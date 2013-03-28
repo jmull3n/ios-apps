@@ -1,0 +1,423 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FC31AD501406B86700C1ABE0 /* mullen6nobracketssmall.png in Resources */ = {isa = PBXBuildFile; fileRef = FC31AD4F1406B86700C1ABE0 /* mullen6nobracketssmall.png */; };
+		FC31AD601406FA1200C1ABE0 /* Icon-small.png in Resources */ = {isa = PBXBuildFile; fileRef = FC31AD5B1406FA0900C1ABE0 /* Icon-small.png */; };
+		FC31AD611406FA1200C1ABE0 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = FC31AD5C1406FA0A00C1ABE0 /* Icon.png */; };
+		FC31AD621406FA1200C1ABE0 /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FC31AD5D1406FA0B00C1ABE0 /* Icon-Small@2x.png */; };
+		FC31AD631406FA1200C1ABE0 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = FC31AD5E1406FA0D00C1ABE0 /* Icon-72.png */; };
+		FC31AD641406FA1200C1ABE0 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FC31AD5F1406FA0F00C1ABE0 /* Icon@2x.png */; };
+		FC31AD6A14070FDC00C1ABE0 /* DemoImageDone.png in Resources */ = {isa = PBXBuildFile; fileRef = FC31AD6914070FDB00C1ABE0 /* DemoImageDone.png */; };
+		FC31AD7C140739B200C1ABE0 /* Icon-Small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = FC31AD7B140739B100C1ABE0 /* Icon-Small-50.png */; };
+		FC31AD7F14084A8200C1ABE0 /* TwoFingerPanScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = FC31AD7E14084A7800C1ABE0 /* TwoFingerPanScrollView.m */; };
+		FC60A36F1403FBA2002BAA55 /* MainTopWBorders.png in Resources */ = {isa = PBXBuildFile; fileRef = FC60A36E1403FBA2002BAA55 /* MainTopWBorders.png */; };
+		FC60A3741403FD4A002BAA55 /* RopPropsSliderGood.png in Resources */ = {isa = PBXBuildFile; fileRef = FC60A3731403FD4A002BAA55 /* RopPropsSliderGood.png */; };
+		FC60A3761403FDD6002BAA55 /* mslidergood.png in Resources */ = {isa = PBXBuildFile; fileRef = FC60A3751403FDD6002BAA55 /* mslidergood.png */; };
+		FC60A3781403FE2A002BAA55 /* RWSliderGood.png in Resources */ = {isa = PBXBuildFile; fileRef = FC60A3771403FE2A002BAA55 /* RWSliderGood.png */; };
+		FC60A3881405B5A8002BAA55 /* InfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC60A3861405B5A7002BAA55 /* InfoViewController.m */; };
+		FC60A3891405B5A8002BAA55 /* InfoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC60A3871405B5A8002BAA55 /* InfoViewController.xib */; };
+		FC86427C14438F0A00A4EE3E /* SwSliderGood.png in Resources */ = {isa = PBXBuildFile; fileRef = FC86427B14438F0A00A4EE3E /* SwSliderGood.png */; };
+		FC86427E1443C20F00A4EE3E /* SPCLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = FC86427D1443C20F00A4EE3E /* SPCLogo.png */; };
+		FC8642801443C64000A4EE3E /* iTunesArtwork.png in Resources */ = {isa = PBXBuildFile; fileRef = FC86427F1443C64000A4EE3E /* iTunesArtwork.png */; };
+		FCF72D2813F5A50700E60B4C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCF72D2713F5A50700E60B4C /* UIKit.framework */; };
+		FCF72D2A13F5A50700E60B4C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCF72D2913F5A50700E60B4C /* Foundation.framework */; };
+		FCF72D2C13F5A50700E60B4C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCF72D2B13F5A50700E60B4C /* CoreGraphics.framework */; };
+		FCF72D3213F5A50700E60B4C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FCF72D3013F5A50700E60B4C /* InfoPlist.strings */; };
+		FCF72D3513F5A50700E60B4C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF72D3413F5A50700E60B4C /* main.m */; };
+		FCF72D3813F5A50700E60B4C /* LogGenieAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF72D3713F5A50700E60B4C /* LogGenieAppDelegate.m */; };
+		FCF72D3B13F5A50700E60B4C /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = FCF72D3913F5A50700E60B4C /* MainWindow.xib */; };
+		FCF72D3E13F5A50700E60B4C /* LogGenieViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF72D3D13F5A50700E60B4C /* LogGenieViewController.m */; };
+		FCF72D4113F5A50700E60B4C /* LogGenieViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FCF72D3F13F5A50700E60B4C /* LogGenieViewController.xib */; };
+		FCF72D5313F881E900E60B4C /* LogGenie320x480.png in Resources */ = {isa = PBXBuildFile; fileRef = FCF72D4F13F881E800E60B4C /* LogGenie320x480.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FC31AD4F1406B86700C1ABE0 /* mullen6nobracketssmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mullen6nobracketssmall.png; sourceTree = "<group>"; };
+		FC31AD5B1406FA0900C1ABE0 /* Icon-small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-small.png"; sourceTree = "<group>"; };
+		FC31AD5C1406FA0A00C1ABE0 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		FC31AD5D1406FA0B00C1ABE0 /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small@2x.png"; sourceTree = "<group>"; };
+		FC31AD5E1406FA0D00C1ABE0 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
+		FC31AD5F1406FA0F00C1ABE0 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		FC31AD6914070FDB00C1ABE0 /* DemoImageDone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DemoImageDone.png; sourceTree = "<group>"; };
+		FC31AD7B140739B100C1ABE0 /* Icon-Small-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50.png"; sourceTree = "<group>"; };
+		FC31AD7D14084A6C00C1ABE0 /* TwoFingerPanScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwoFingerPanScrollView.h; sourceTree = "<group>"; };
+		FC31AD7E14084A7800C1ABE0 /* TwoFingerPanScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwoFingerPanScrollView.m; sourceTree = "<group>"; };
+		FC60A36E1403FBA2002BAA55 /* MainTopWBorders.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MainTopWBorders.png; sourceTree = "<group>"; };
+		FC60A3731403FD4A002BAA55 /* RopPropsSliderGood.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RopPropsSliderGood.png; sourceTree = "<group>"; };
+		FC60A3751403FDD6002BAA55 /* mslidergood.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mslidergood.png; sourceTree = "<group>"; };
+		FC60A3771403FE2A002BAA55 /* RWSliderGood.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RWSliderGood.png; sourceTree = "<group>"; };
+		FC60A3851405B5A7002BAA55 /* InfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfoViewController.h; sourceTree = "<group>"; };
+		FC60A3861405B5A7002BAA55 /* InfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfoViewController.m; sourceTree = "<group>"; };
+		FC60A3871405B5A8002BAA55 /* InfoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InfoViewController.xib; sourceTree = "<group>"; };
+		FC86427B14438F0A00A4EE3E /* SwSliderGood.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SwSliderGood.png; sourceTree = "<group>"; };
+		FC86427D1443C20F00A4EE3E /* SPCLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SPCLogo.png; sourceTree = "<group>"; };
+		FC86427F1443C64000A4EE3E /* iTunesArtwork.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iTunesArtwork.png; sourceTree = "<group>"; };
+		FCF72D2313F5A50700E60B4C /* LogSlider.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LogSlider.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCF72D2713F5A50700E60B4C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FCF72D2913F5A50700E60B4C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FCF72D2B13F5A50700E60B4C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FCF72D2F13F5A50700E60B4C /* LogGenie-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LogGenie-Info.plist"; sourceTree = "<group>"; };
+		FCF72D3113F5A50700E60B4C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FCF72D3313F5A50700E60B4C /* LogGenie-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LogGenie-Prefix.pch"; sourceTree = "<group>"; };
+		FCF72D3413F5A50700E60B4C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FCF72D3613F5A50700E60B4C /* LogGenieAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LogGenieAppDelegate.h; sourceTree = "<group>"; };
+		FCF72D3713F5A50700E60B4C /* LogGenieAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LogGenieAppDelegate.m; sourceTree = "<group>"; };
+		FCF72D3A13F5A50700E60B4C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		FCF72D3C13F5A50700E60B4C /* LogGenieViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LogGenieViewController.h; sourceTree = "<group>"; };
+		FCF72D3D13F5A50700E60B4C /* LogGenieViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LogGenieViewController.m; sourceTree = "<group>"; };
+		FCF72D4013F5A50700E60B4C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/LogGenieViewController2.xib; sourceTree = "<group>"; };
+		FCF72D4F13F881E800E60B4C /* LogGenie320x480.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LogGenie320x480.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FCF72D2013F5A50700E60B4C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCF72D2813F5A50700E60B4C /* UIKit.framework in Frameworks */,
+				FCF72D2A13F5A50700E60B4C /* Foundation.framework in Frameworks */,
+				FCF72D2C13F5A50700E60B4C /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FCF72D1813F5A50700E60B4C = {
+			isa = PBXGroup;
+			children = (
+				FCF72D2D13F5A50700E60B4C /* LogGenie */,
+				FCF72D2613F5A50700E60B4C /* Frameworks */,
+				FCF72D2413F5A50700E60B4C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FCF72D2413F5A50700E60B4C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FCF72D2313F5A50700E60B4C /* LogSlider.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FCF72D2613F5A50700E60B4C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FCF72D2713F5A50700E60B4C /* UIKit.framework */,
+				FCF72D2913F5A50700E60B4C /* Foundation.framework */,
+				FCF72D2B13F5A50700E60B4C /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FCF72D2D13F5A50700E60B4C /* LogGenie */ = {
+			isa = PBXGroup;
+			children = (
+				FCF72D3613F5A50700E60B4C /* LogGenieAppDelegate.h */,
+				FCF72D3713F5A50700E60B4C /* LogGenieAppDelegate.m */,
+				FCF72D3913F5A50700E60B4C /* MainWindow.xib */,
+				FCF72D3C13F5A50700E60B4C /* LogGenieViewController.h */,
+				FCF72D3D13F5A50700E60B4C /* LogGenieViewController.m */,
+				FC60A3851405B5A7002BAA55 /* InfoViewController.h */,
+				FC60A3861405B5A7002BAA55 /* InfoViewController.m */,
+				FC60A3871405B5A8002BAA55 /* InfoViewController.xib */,
+				FCF72D3F13F5A50700E60B4C /* LogGenieViewController.xib */,
+				FCF72D2E13F5A50700E60B4C /* Supporting Files */,
+				FC31AD7D14084A6C00C1ABE0 /* TwoFingerPanScrollView.h */,
+				FC31AD7E14084A7800C1ABE0 /* TwoFingerPanScrollView.m */,
+			);
+			path = LogGenie;
+			sourceTree = "<group>";
+		};
+		FCF72D2E13F5A50700E60B4C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FCF72D4713F5A5DC00E60B4C /* resources */,
+				FCF72D2F13F5A50700E60B4C /* LogGenie-Info.plist */,
+				FCF72D3013F5A50700E60B4C /* InfoPlist.strings */,
+				FCF72D3313F5A50700E60B4C /* LogGenie-Prefix.pch */,
+				FCF72D3413F5A50700E60B4C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FCF72D4713F5A5DC00E60B4C /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				FC86427F1443C64000A4EE3E /* iTunesArtwork.png */,
+				FC86427D1443C20F00A4EE3E /* SPCLogo.png */,
+				FC86427B14438F0A00A4EE3E /* SwSliderGood.png */,
+				FC31AD7B140739B100C1ABE0 /* Icon-Small-50.png */,
+				FC31AD6914070FDB00C1ABE0 /* DemoImageDone.png */,
+				FC31AD5B1406FA0900C1ABE0 /* Icon-small.png */,
+				FC31AD5C1406FA0A00C1ABE0 /* Icon.png */,
+				FC31AD5D1406FA0B00C1ABE0 /* Icon-Small@2x.png */,
+				FC31AD5E1406FA0D00C1ABE0 /* Icon-72.png */,
+				FC31AD5F1406FA0F00C1ABE0 /* Icon@2x.png */,
+				FC31AD4F1406B86700C1ABE0 /* mullen6nobracketssmall.png */,
+				FC60A3771403FE2A002BAA55 /* RWSliderGood.png */,
+				FC60A3751403FDD6002BAA55 /* mslidergood.png */,
+				FC60A3731403FD4A002BAA55 /* RopPropsSliderGood.png */,
+				FC60A36E1403FBA2002BAA55 /* MainTopWBorders.png */,
+				FCF72D4F13F881E800E60B4C /* LogGenie320x480.png */,
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FCF72D2213F5A50700E60B4C /* LogSlider */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCF72D4413F5A50700E60B4C /* Build configuration list for PBXNativeTarget "LogSlider" */;
+			buildPhases = (
+				FCF72D1F13F5A50700E60B4C /* Sources */,
+				FCF72D2013F5A50700E60B4C /* Frameworks */,
+				FCF72D2113F5A50700E60B4C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LogSlider;
+			productName = LogGenie;
+			productReference = FCF72D2313F5A50700E60B4C /* LogSlider.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FCF72D1A13F5A50700E60B4C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = FCF72D1D13F5A50700E60B4C /* Build configuration list for PBXProject "LogGenie" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FCF72D1813F5A50700E60B4C;
+			productRefGroup = FCF72D2413F5A50700E60B4C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FCF72D2213F5A50700E60B4C /* LogSlider */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FCF72D2113F5A50700E60B4C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCF72D3213F5A50700E60B4C /* InfoPlist.strings in Resources */,
+				FCF72D3B13F5A50700E60B4C /* MainWindow.xib in Resources */,
+				FCF72D4113F5A50700E60B4C /* LogGenieViewController.xib in Resources */,
+				FCF72D5313F881E900E60B4C /* LogGenie320x480.png in Resources */,
+				FC60A36F1403FBA2002BAA55 /* MainTopWBorders.png in Resources */,
+				FC60A3741403FD4A002BAA55 /* RopPropsSliderGood.png in Resources */,
+				FC60A3761403FDD6002BAA55 /* mslidergood.png in Resources */,
+				FC60A3781403FE2A002BAA55 /* RWSliderGood.png in Resources */,
+				FC60A3891405B5A8002BAA55 /* InfoViewController.xib in Resources */,
+				FC31AD501406B86700C1ABE0 /* mullen6nobracketssmall.png in Resources */,
+				FC31AD601406FA1200C1ABE0 /* Icon-small.png in Resources */,
+				FC31AD611406FA1200C1ABE0 /* Icon.png in Resources */,
+				FC31AD621406FA1200C1ABE0 /* Icon-Small@2x.png in Resources */,
+				FC31AD631406FA1200C1ABE0 /* Icon-72.png in Resources */,
+				FC31AD641406FA1200C1ABE0 /* Icon@2x.png in Resources */,
+				FC31AD6A14070FDC00C1ABE0 /* DemoImageDone.png in Resources */,
+				FC31AD7C140739B200C1ABE0 /* Icon-Small-50.png in Resources */,
+				FC86427C14438F0A00A4EE3E /* SwSliderGood.png in Resources */,
+				FC86427E1443C20F00A4EE3E /* SPCLogo.png in Resources */,
+				FC8642801443C64000A4EE3E /* iTunesArtwork.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FCF72D1F13F5A50700E60B4C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCF72D3513F5A50700E60B4C /* main.m in Sources */,
+				FCF72D3813F5A50700E60B4C /* LogGenieAppDelegate.m in Sources */,
+				FCF72D3E13F5A50700E60B4C /* LogGenieViewController.m in Sources */,
+				FC60A3881405B5A8002BAA55 /* InfoViewController.m in Sources */,
+				FC31AD7F14084A8200C1ABE0 /* TwoFingerPanScrollView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FCF72D3013F5A50700E60B4C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCF72D3113F5A50700E60B4C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FCF72D3913F5A50700E60B4C /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCF72D3A13F5A50700E60B4C /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		FCF72D3F13F5A50700E60B4C /* LogGenieViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCF72D4013F5A50700E60B4C /* en */,
+			);
+			name = LogGenieViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FCF72D4213F5A50700E60B4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FCF72D4313F5A50700E60B4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		FCF72D4513F5A50700E60B4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LogGenie/LogGenie-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "LogGenie/LogGenie-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FCF72D4613F5A50700E60B4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LogGenie/LogGenie-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "LogGenie/LogGenie-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		FCF72D5613F885EC00E60B4C /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+			};
+			name = Distribution;
+		};
+		FCF72D5713F885EC00E60B4C /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = (
+					armv6,
+					armv7,
+				);
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LogGenie/LogGenie-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "LogGenie/LogGenie-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Distribution;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FCF72D1D13F5A50700E60B4C /* Build configuration list for PBXProject "LogGenie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCF72D4213F5A50700E60B4C /* Debug */,
+				FCF72D4313F5A50700E60B4C /* Release */,
+				FCF72D5613F885EC00E60B4C /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Distribution;
+		};
+		FCF72D4413F5A50700E60B4C /* Build configuration list for PBXNativeTarget "LogSlider" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCF72D4513F5A50700E60B4C /* Debug */,
+				FCF72D4613F5A50700E60B4C /* Release */,
+				FCF72D5713F885EC00E60B4C /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Distribution;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FCF72D1A13F5A50700E60B4C /* Project object */;
+}
