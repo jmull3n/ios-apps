@@ -182,9 +182,9 @@
     
  
     
-    [self resetUI];
-    [self.rockProperties calculateFromSonic];
-    [self.rockProperties calculateEstimate];
+   // [self resetUI];
+   // [self.rockProperties calculateFromSonic];
+    //[self.rockProperties calculateEstimate];
 
 
 }
@@ -277,66 +277,66 @@
     //  change gives back an NSDictionary of changes
     NSNumber *newValue = [change valueForKey:NSKeyValueChangeNewKey];
        // update the appropriate label
-    if (keyPath == @"densityPorosity") {
+    if ([keyPath isEqual: @"densityPorosity"]) {
         self.densityPorosity.text = [NSString stringWithFormat:@"%.02f", [newValue floatValue]];
-        NSLog(@"%@",[NSString stringWithFormat:@"%.02f", newValue]);
+        //NSLog(@"%@",[NSString stringWithFormat:@"%.02f", newValue]);
     }
-    else if (keyPath == @"neutronPorosity") {
+    else if ([keyPath isEqual: @"neutronPorosity"]) {
         self.neutronPorosity.text = [NSString stringWithFormat:@"%.02f", [newValue floatValue]];
     }
-    else if (keyPath == @"gammaRay") {
+    else if ([keyPath isEqual: @"gammaRay"]) {
         self.gammaRay.text = [NSString stringWithFormat:@"%.f", [newValue floatValue]];
     }
-    else if (keyPath == @"resistivity") {
+    else if ([keyPath isEqual: @"resistivity"]) {
         self.resistivity.text = [NSString stringWithFormat:@"%.01f", [newValue floatValue]];
     }
-    else if (keyPath == @"porePressureGrad") {
+    else if ([keyPath isEqual: @"porePressureGrad"]) {
         self.porePressureGrad.text = [NSString stringWithFormat:@"%.02f", [newValue floatValue]];
     }
-    else if (keyPath == @"overburdenGrad") {
+    else if ([keyPath isEqual: @"overburdenGrad"]) {
         self.overburdenGrad.text = [NSString stringWithFormat:@"%.02f", [newValue floatValue]];
     }
-    else if (keyPath == @"techtonicGrad") {
+    else if ([keyPath isEqual: @"techtonicGrad"]) {
         self.techtonicGrad.text = [NSString stringWithFormat:@"%.02f", [newValue floatValue]];
     }
-    else if (keyPath == @"fluidDensity") {
+    else if ([keyPath isEqual: @"fluidDensity"]) {
         self.fluidDensity.text = [NSString stringWithFormat:@"%.02f", [newValue floatValue]];
     }
     
-    else if (keyPath == @"DTC") {
+    else if ([keyPath isEqual: @"DTC"]) {
         self.DTC.text = [NSString stringWithFormat:@"%.01f", [newValue floatValue]];
     }
-    else if (keyPath == @"DTS") {
+    else if ([keyPath isEqual: @"DTS"]) {
         self.DTS.text = [NSString stringWithFormat:@"%.01f", [newValue floatValue]];
     }
-    else if (keyPath == @"poissonsRatioSonic") {
+    else if ([keyPath isEqual: @"poissonsRatioSonic"]) {
         self.poissonsRatioSonic.text = [NSString stringWithFormat:@"%.02f", [newValue floatValue]];
     }
-    else if (keyPath == @"youngsModulusSonic") {
+    else if ([keyPath isEqual: @"youngsModulusSonic"]) {
         self.youngsModulusSonic.text = [NSString stringWithFormat:@"%.02f", [newValue floatValue]];
     }
-    else if (keyPath == @"dtcEst") {
+    else if ([keyPath isEqual: @"dtcEst"]) {
         self.dtcEst.text = [NSString stringWithFormat:@"%.01f", [newValue floatValue]];
     }
-    else if (keyPath == @"dtsEst") {
+    else if ([keyPath isEqual: @"dtsEst"]) {
         self.dtsEst.text = [NSString stringWithFormat:@"%.01f", [newValue floatValue]];
     }
-    else if (keyPath == @"poissonsRatioEst") {
+    else if ([keyPath isEqual: @"poissonsRatioEst"]) {
         self.poissonsRatioEst.text = [NSString stringWithFormat:@"%.02f", [newValue floatValue]];
     }
-    else if (keyPath == @"youngsModulusEst") {
+    else if ([keyPath isEqual: @"youngsModulusEst"]) {
         self.youngsModulusEst.text = [NSString stringWithFormat:@"%.02f", [newValue floatValue]];
     }
-    else if (keyPath == @"closureStressGradSonic") {
+    else if ([keyPath isEqual: @"closureStressGradSonic"]) {
         self.closureStressGradSonic.text = [NSString stringWithFormat:@"%.02f", [newValue floatValue]];
     }
-    else if (keyPath == @"brittlenessIndexSonic") {
+    else if ([keyPath isEqual: @"brittlenessIndexSonic"]) {
         self.brittlenessIndexSonic.text = [NSString stringWithFormat:@"%.02f", [newValue floatValue]];
     }
-    else if (keyPath == @"closureStressGradEst") {
+    else if ([keyPath isEqual: @"closureStressGradEst"]) {
         self.closureStressGradEst.text = [NSString stringWithFormat:@"%.02f", [newValue floatValue]];
     }
-    else if (keyPath == @"brittlenessIndexEst") {
+    else if ([keyPath isEqual: @"brittlenessIndexEst"]) {
         self.brittlenessIndexEst.text = [NSString stringWithFormat:@"%.02f", [newValue floatValue]];
     }  
     
@@ -424,15 +424,15 @@
 - (void)viewWillAppear:(BOOL)animated
 {
     [super viewWillAppear:animated];
-        //[pickerView selectRow:1 inComponent:0 animated:NO];
-    [pickerView selectRow:1 inComponent:1 animated:NO];
-    [self resetUI];
+
 
 }
 
 - (void)viewDidAppear:(BOOL)animated
 {
     [super viewDidAppear:animated];
+
+    [self resetUI];
     
 }
 
@@ -518,65 +518,54 @@
   }
 -(void)resetUI{
     [self.rockProperties clear];
-    
-    
+
     Parameters *params = [[Parameters alloc] init];
-    [params setDTCPHIAMULT:90];
-    [params setDTSPHINOFFSET:56];
-    [params setDTCPHINMULT:90];
-    [params setDTCPHINOFFSET:56];
-    [params setDTCPHIDMULT:140];
-    [params setDTCPHIDOFFSET:52];
-    [params setDTCGRMULT:.4];
-    [params setDTCGROFFFSET:50];
-    [params setDTCRTMULT:.11];
-    [params setDTCRTOFFSET:75];
-    [params setDTSRTMULT:.9];
-    [params setDTSRTOFFSET:100];
-    [params setDTSPHINMULT:281];
-    [params setDTSPHINOFFSET:80];
-    [params setVRATMULT:.95];
-    [params setVRATOFFSET:-.81];
+    [params setDTCPHIAMULT:143.0];
+    [params setDTCPHIAOFFSET:45.0];
+    [params setDTCPHINMULT:115.0];
+    [params setDTCPHINOFFSET:47.0];
+    [params setDTCPHIDMULT:100.0];
+    [params setDTCPHIDOFFSET:51.0];
+    [params setDTCGRMULT:.16];
+    [params setDTCGROFFFSET:45.0];
+    [params setDTCRTMULT:.046];
+    [params setDTCRTOFFSET:58.0];
+    [params setDTSRTMULT:.49];
+    [params setDTSRTOFFSET:84.0];
+    [params setDTSPHINMULT:232.0];
+    [params setDTSPHINOFFSET:83.0];
+    [params setVRATMULT:.81];
+    [params setVRATOFFSET:-.53];
     [params setPRGREXP:.05];
     [params setPRGRMULT:.2];
-    [params setYMDtoYMS:.8];
-    [params setBiotsAlpha:1];
-    [params setDTCma:55.5];
-    [params setDTSma:90];
+    [params setYMDtoYMS:.5];
+    [params setBiotsAlpha:.6];
+    [params setDTCma:57.5];
+    [params setDTSma:88.8];
+    [params setVRAT:1.6];
+
     [self.rockProperties setParams:params];
     [self.rockProperties setLogMatrix:@"Sand"];
-    [params release];
 
-    self.densityPorositySlider.value = 0.0;
-    self.neutronPorositySlider.value = 0.0;
-    self.gammaRaySlider.value = 0.0;
-    self.resistivitySlider.value =  -0.698970004;//[[NSNumber numberWithFloat:logf(1.58489319)] floatValue];
-    self.porePressureSlider.value = 0.433;
-    self.overburdenSlider.value = 1.05;
-    self.techtonicGradSlider.value = 0.0;
-    self.fluidDensitySlider.value = 1.0;
-    self.dtcSlider.value = 40.0;
-    self.dtsSlider.value = 40.0;
-    
+    [self.densityPorositySlider setValue:0.0];
+    [self.neutronPorositySlider setValue:0.0];
+    [self.gammaRaySlider setValue:0.0];
+    [self.resistivitySlider setValue: -0.698970004];
+    [self.porePressureSlider setValue:0.433];
+    [self.overburdenSlider setValue:1.05];
+    [self.techtonicGradSlider setValue:0.0];
+    [self.fluidDensitySlider setValue:1.0];
+    [self.dtcSlider setValue:40.0];
+    [self.dtsSlider setValue:40.0];
 
-    [pickerView selectRow:0 inComponent:0 animated:YES];
-    [pickerView selectRow:0 inComponent:1 animated:NO];
+    [self.pickerView selectRow:0 inComponent:0 animated:YES];
+    [self.pickerView selectRow:0 inComponent:1 animated:YES];
 
     
     [self.rockProperties calculateFromSonic];
     [self.rockProperties calculateEstimate];
 
-//    
-//    self.dtcEst.text = @"";
-//    self.dtsEst.text = @"";
-//    self.poissonsRatioEst.text = @"";
-//    self.poissonsRatioSonic.text = @"";
-//    self.youngsModulusEst.text = @"";
-//    self.youngsModulusSonic.text = @"";
-//    self.closureStressGradEst.text = @"";
-//    self.closureStressGradSonic.text = @"";
-//    self.brittlenessIndexEst.text = @"";
-//    self.brittlenessIndexSonic.text = @"";
+
     
 }
 #pragma mark -
